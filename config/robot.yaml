@@ -1,0 +1,16 @@
+perception:
+  obstacle_distance: 0.7
+  confidence_threshold: 0.5
+
+navigation:
+  goal_tolerance: 0.3
+  max_linear_velocity: 0.8
+  max_angular_velocity: 1.5
+
+adaptation:
+  learning_rate: 0.05
+  enabled: true
+
+safety:
+  emergency_distance: 0.35
+  max_velocity: 0.8
